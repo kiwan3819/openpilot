@@ -111,7 +111,7 @@ def create_ui_commands(packer, CP, pcm_speed, hud, is_metric, idx, stock_hud):
         'ENABLE_MINI_CAR': 1,
         'SET_TO_1': 1,
         'HUD_LEAD': hud.car,
-        'HUD_DISTANCE': 3,
+        'HUD_DISTANCE': 1,
         'ACC_ON': hud.car != 0,
         'SET_TO_X1': 1,
         'IMPERIAL_UNIT': int(not is_metric),
